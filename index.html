@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/892a88f0e1.js" crossorigin="anonymous"></script>
+    <title>FotoFinder</title>
+</head>
+<body>
+    <section class="hero is-info">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">FotoFinder</h1>
+                <h2 class="subtitle">Search For Photos</h2>
+            </div>
+        </div>
+    </section>
+    <section class="section has-background-info is-medium">
+        <div class="columns is-centered">
+            <div class="column is-half">
+                <form id="form">
+                    <div class="field">
+                        <label class="label has-text-white is-size-4">Search</label>
+                        <div class="control has-icons-left">
+                            <input type="text" id="search" class="input is-info is-medium is-rounded" placeholder="Enter product name...">
+                            <span class="icon is-left is-small is-medium">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </div>
+                        <div class="control">
+                            <input type="submit" value="Search" class="button has-text-info is-rounded is-medium is-fullwidth">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div id="resultsDiv" class="has-background-info">
+        
+    </div>
+    <section id="footer" class="has-background-info">
+        <p class="subtitle has-text-light">&copy; 2019 FotoFinder</p>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>

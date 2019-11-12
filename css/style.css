@@ -1,0 +1,21 @@
+.button {
+    border: none;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #209CEE;
+    color: #fff !important;
+}
+
+#footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+#resultsDiv img {
+    width: 49vw;
+    height: 400px;
+}
