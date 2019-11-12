@@ -1,7 +1,7 @@
 const search = document.getElementById('search');
 const resultsDiv = document.getElementById('resultsDiv');
 const form = document.getElementById('form');
-const accessKey = '5bf078aee6fe787c6c50212e973282ee43159d44d2d04b5a4b3a964560f772c2';
+const accessKey = '<your API key>';
 
 form.addEventListener('submit', loadData);
 
